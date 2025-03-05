@@ -13,7 +13,7 @@ const Header = () => {
       <nav>
         <ul className="flex">
           <li>
-            <a href="">About</a>
+            <a href="">À propos</a>
           </li>
 
           <li>
@@ -48,7 +48,7 @@ const Header = () => {
            
             </li>
             <li>
-              <a href="">About</a>
+              <a href="">À propos</a>
             </li>
             <li>
               <a href="">Articles</a>
