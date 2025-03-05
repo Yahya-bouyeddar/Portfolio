@@ -1,21 +1,20 @@
 import "./hero.css";
+import Lottie from "lottie-react";
+import DevAnnim from "../../../public/animation/Dev.json";
 const Hero = () => {
   return (
     <section className="hero flex">
       <div className="left-section  ">
         <div className="parent-avatar flex">
-          <img src="./me.jpg" className="avatar" alt="" />
+          <img src="../../../public/Yahya.jpeg" className="avatar" alt="" />
           <div className="icon-verified"></div>
         </div>
 
         <h1 className="title">
-          Software designer, founder, and amateur astronaut.
+          Full stack developer
         </h1>
         <p className="sub-title">
-          I’m Ali Hassan, a software designer and entrepreneur based in New York
-          City. I’m the founder and CEO of Planetaria, where we develop
-          technologies that empower regular people to explore space on their own
-          terms.
+          .
         </p>
 
         <div className="all-icons flex">
@@ -26,7 +25,11 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="right-section animation border">animation</div>
+      <div className="right-section animation ">
+      <Lottie 
+        style={{height: 360}}
+        animationData={DevAnnim}/>
+      </div>
     </section>
   );
 };

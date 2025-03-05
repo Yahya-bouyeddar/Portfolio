@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./footer.css";
 const Footer = () => {
   return (
@@ -18,7 +18,7 @@ const Footer = () => {
         </li>
       </ul>
 
-      <p>© 2023 Spencer Sharp. All rights reserved.</p>
+      <p>© 2025 Spencer Sharp. All rights reserved.</p>
     </footer>
   );
 };

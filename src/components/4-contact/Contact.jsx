@@ -1,4 +1,7 @@
 import "./contact.css";
+import Lottie from "lottie-react";
+import contactAnimmation from "../../../public/animation/Animation - 1741188099761.json";
+
 const Contact = () => {
   return (
     <section className="contact-us">
@@ -11,7 +14,7 @@ const Contact = () => {
         something new.
       </p>
 
-      <div className="flex">
+      <div style={{justifyContent:"space-between"}} className="flex">
         <form className="">
           <div className="flex">
             <label htmlFor="email">Email Address:</label>
@@ -25,7 +28,11 @@ const Contact = () => {
 
           <button className="submit">Submit</button>
         </form>
-        <div className="border animation">animation</div>
+        <div className=" animation">
+        <Lottie 
+        style={{height: 360}}
+        animationData={contactAnimmation}/>
+        </div>
       </div>
     </section>
   );
