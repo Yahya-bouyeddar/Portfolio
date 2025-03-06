@@ -7,6 +7,7 @@ const Hero = () => {
       <div className="left-section  ">
         <div className="parent-avatar flex">
           <img src="../../../public/Yahya.jpeg" className="avatar" alt="" />
+          <p>Yahya Elouazzani</p>
           <div className="icon-verified"></div>
         </div>
 

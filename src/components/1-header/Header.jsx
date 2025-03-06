@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./header.css";
 
+
 const Header = () => {
   const [showModal, setshowModal] = useState(false);
   return (
@@ -41,11 +42,8 @@ const Header = () => {
             <li >
               <button className="icon-close" onClick={() => {
                 setshowModal(false)
-              }} />   
-              
-             
-              
-           
+              }} />
+
             </li>
             <li>
               <a href="">À propos</a>
