@@ -6,7 +6,7 @@ const Hero = () => {
     <section className="hero flex">
       <div className="left-section  ">
         <div className="parent-avatar flex">
-          <img src="/yahya.jpeg" className="avatar" alt="" />
+          <img src="/Yahya.png" className="avatar" alt="" />
           <p>Yahya Elouazzani</p>
           <div className="icon-verified"></div>
         </div>
